@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompressor: true,
+  reactCompiler: true,
   images: {
     remotePatterns: [
       {
